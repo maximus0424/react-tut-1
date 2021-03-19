@@ -22,10 +22,7 @@ const MyChildComponent = () => {
   React.useEffect(() => {
     console.log("called when the component is mounted");
 
-    return () =>
-      console.log(
-        "Called on component unmounted, check the [] on the react use effect"
-      );
+    return () => console.log("Called on component unmounted, check the [] on the react use effect");
   }, []);
 
   return (
