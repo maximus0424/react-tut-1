@@ -9,7 +9,6 @@ export const MyComponent = () => {
       setUsername("John");
     }, 1500);
   }, []);
-
   return (
     <>
       <h4>{username}</h4>
